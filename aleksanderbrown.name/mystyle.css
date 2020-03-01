@@ -1,0 +1,48 @@
+body{     
+    background-image: url(/backgrounds/papyrus-dark.png);
+}
+span {
+    display:table;
+    margin:0 auto;
+}
+#myHeader {
+    align-self: center;
+    background-color:#aca5ac;
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+.centerDiv {
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+}
+h1 {
+    color: #3e23a8;
+    font-family: fantasy;
+    font-size: 300%;
+}
+h2 {
+    color:darkgoldenrod;
+    font-family: cursive;
+    font-size: 200%;
+    text-align: center;
+}
+
+p {
+    color:darksalmon;
+    font-family: cursive;
+    font-size-adjust: auto;
+}
+table, th, td {
+    color: blanchedalmond;
+    margin: auto;
+    align-self: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 5px;
+}
+th, td{
+    padding:15px;
+}
