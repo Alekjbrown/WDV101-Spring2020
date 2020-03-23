@@ -14,7 +14,7 @@ body {
     padding-left: 5%;
 }
 
-h1{
+h1 {
     font-family: 'airstreamregular';
 }
 
@@ -30,12 +30,12 @@ p {
 /* sticky nav bar*/
 .nav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 20%;
+    margin: 1px;
+    padding: 5px;
+    width: 200px;
     border: 1px solid #4a3323;
     position: fixed;
-    right: 5px;
+    right: 20px;
     overflow: auto;
     background-color: rgba(74, 51, 35, .5);
 
@@ -74,14 +74,45 @@ li:last-child {
 }
 
 q,
-blockquote{
-    quotes:"\201C" "\201D" "\2018" "\2019";
+blockquote {
+    quotes: "\201C""\201D""\2018""\2019";
 }
 
 @font-face {
-    font-family: 'airstreamregular';    
+    font-family: 'airstreamregular';
     src: url('fonts/Airstream-webfont.woff') format('woff'),
-    font-weight: normal;
+        font-weight: normal;
     font-style: normal;
+    4
+}
 
+
+.fleft {
+    float: left;
+    padding-right: 10px;
+}
+
+/*clear previous floats*/
+.clear {
+    clear: both;
+}
+
+/*image box*/
+.box {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+
+.box img.left {
+    float: left;
+    margin-right: 24px;
+    width: 300px;
+    box-shadow: 5px 10px;
+}
+
+.box img.right {
+    margin-left: 24px;
+    width: 300px;
+    box-shadow: 5px 10px;
 }
