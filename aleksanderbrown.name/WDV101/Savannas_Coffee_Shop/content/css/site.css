@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+}
+
+form fieldset {
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+}
+
+footer div {
+    background-color: #444;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 15pt;
+    font-family: 'sf_cartoonist_handregular';
+}
+
+
+.right {
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    margin: 1em;
+}
+
+.left {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin: 1em;
+    padding: 1em;
+}
+
+#hourbar {
+    border: 1px solid black;
+    border-top: 0;
+    border-bottom: 0;
+    margin-top: 5em;
+}
+
+#hourbar p {
+    font-size: 14pt;
+    margin: 1em .1em;
+}
+
+#hourbar h4 {
+    text-decoration: underline;
+    text-align: center
+}
+
+.clear {
+    clear: both;
+}
+
+.aside {
+    background-color: #444;
+    border: 1px solid black;
+    min-height: 710px;
+}
+
+
+p {
+    font-size: 18pt;
+    font-family: 'sf_cartoonist_handregular';
+    margin: 1em 2em;
+}
+
+/*nav bar*/
+.nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .7s background-color;
+    border-radius: 25px;
+
+}
+
+.nav a:hover {
+    background-color: #005f5f;
+}
+
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+    .nav li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+    }
+
+    /*Display Inline */
+    .nav li {
+        display: inline-block;
+        margin-right: -4px;
+    }
+
+}
+
+/*fonts*/
+@font-face {
+    font-family: 'sf_cartoonist_handregular';
+    src: url('../fonts/SF_Cartoonist_Hand-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

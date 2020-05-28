@@ -1,0 +1,167 @@
+header {
+    transform: rotate(-20deg);
+    padding: 10px;
+    margin: 35px;
+    margin: 35px;
+    text-align: center;
+    width: 20%;
+}
+
+#profilePic {
+    padding: 10px;
+    margin-left: 10em;
+    margin-right: 4em;
+    float: left;
+    width: 200px;
+    height: 266px;
+}
+
+main {
+    display: flow-root;
+    text-align: center;
+    margin-left: 20%;
+    width: 50%;
+
+}
+
+#container{
+
+}
+
+body {
+    background-image: url(/content/backgrounds/mirror-light-stained-red-very-beautiful-background-37898.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: #3e23a8;
+    font-family: 'amerikaregular', fantasy;
+    font-size: 300%;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 200%;
+    text-align: center;
+    color: #3e23a8
+}
+
+h3 {
+    background-color: #3e23a8;
+    color: black;
+    width: 10%;
+}
+
+p {
+    color: darksalmon;
+    font-family: cursive;
+    font-size-adjust: auto;
+}
+
+iframe {
+    border: none;
+    height: 800px;
+    width: 700px;
+}
+
+
+/*table styles*/
+table,
+th,
+td {
+    color: blanchedalmond;
+    margin: auto;
+    align-self: center;
+    border: 0px solid black;
+    background-color: rgba(112, 128, 144, .35);
+}
+
+table {
+    border-radius: 25px;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+th {
+    text-transform: capitalize;
+    text-shadow: .5px 1px;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+a {
+    background-color: aliceblue;
+    border-radius: 2px;
+}
+
+
+/* nav bar*/
+nav {
+    padding: 10px;
+    width: 200px;
+    position: relative;
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #7f519b;
+    right: 20px;
+    overflow: auto;
+    background-color: rgba(120, 90, 229, .10);
+}
+
+nav li {
+    text-align: center;
+    border-bottom: 1px solid #785ae5;
+}
+
+.active {
+    background-color: #785ae5;
+    color: #dcccff;
+}
+
+nav li a {
+    display: block;
+    color: #785ae5;
+}
+
+nav li a:hover {
+    background-color: #dcccff;
+    color: #785ae5;
+}
+
+nav li a:active {
+    background-color: #7f519b;
+    color: #dcccff;
+}
+
+nav li a:visited {
+    color: ;
+}
+
+nav li:last-child {
+    border-bottom: none;
+}
+
+
+/*fonts*/
+
+@font-face {
+    font-family: 'anagramregular';
+    src: url('/fonts/Anagram-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'amerikaregular';
+    src: url('/fonts/AMERIKA_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;

@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+}
+
+
+.right{
+    width: 300px;
+    float: right;
+}
+
+.left{
+    width: 300px;
+    float: left;
+    margin: 0em 5em;
+}
+
+section h2 {
+    list-style: none;
+    background-color: darkslategray;
+    color: antiquewhite;
+    border-radius: 15px;
+    text-align: center;
+    display: block;
+    width: 18em;
+    margin-top: 2em;
+}
+
+p{
+    font-size: 18pt;
+    font-family: 'sf_cartoonist_handregular';
+    margin: 1em 2em;
+}
+
+/*nav bar*/
+.nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav a:hover {
+    background-color: #005f5f;
+}
+
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+    .nav li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+    }
+
+    /*Display Inline */
+    .nav li {
+        display: inline-block;
+        margin-right: -4px;
+    }
+
+}
+
+/*fonts*/
+@font-face {
+    font-family: 'sf_cartoonist_handregular';
+    src: url('../fonts/SF_Cartoonist_Hand-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

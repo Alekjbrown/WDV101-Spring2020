@@ -1,0 +1,112 @@
+<!Doctype HTML>
+<html lang="en">
+
+<head>
+    <title>Savanna's Coffee Shop - Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="description" content="info about savanna's coffee shop">
+    <meta name="keywords" content="coffee shop">
+    <meta name="author" content="Alek Brown">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/WDV101/Savannas_Coffee_Shop/">
+
+    <!--reset css-->
+    <link rel="stylesheet" type="text/css" href="./content/css/ResetBase.css">
+
+    <!--bootstrap-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./content/css/site.css">
+</head>
+
+<body>
+    <header class="row">
+        <div class="col-xs-12 col-sm-12 col-lg-12">
+            <img src="content/images/banner/SavannaBanner.jpeg" alt="Savanna's Banner" title="Savanna's Banner" height="220" width="999" style="width: 100%">
+        </div>
+    </header>
+    <div class="row">
+        <div class="nav col-xs-12 col-md-12 col-lg-12">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </div>
+        <!--end col div for nav-->
+    </div>
+    <!--end row div for nav-->
+    <div class="row" style="margin-top: 5%; min-height: 450px">
+        <div class="col-xs-0 col-sm-3 col-lg-3">
+        </div>
+        <div class="col-xs-12 col-sm-2 col-lg-2">
+            <form id="contact" action="./content/files/form_response_basic.php" method="post">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <div>
+                        <div>
+                            <label for="fname">First Name</label>
+                            <input id="fname" name="fname" type="text" placeholder="First Name">
+                        </div>
+                        <div>
+                            <label for="lname">Last Name</label>
+                            <input id="lname" name="lname" type="text" placeholder="Last Name">
+                        </div>
+                        <div>
+                            <label for="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email</label>
+                            <input id="email" name="email" type="email">
+                        </div>
+                        <div>
+                            <label for="topic">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Topic</label>
+                            <select id="topic" name="topic">
+                                <option>Select One</option>
+                                <option value="Event">Event</option>
+                                <option value="Employment">Employment</option>
+                                <option value="Comment">Complaint or Comment</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message">&nbsp;&nbsp;&nbsp;Message</label>
+                            <textarea id="message" name="message"></textarea>
+                        </div>
+                        <div style="text-align: center">
+                            <input type="submit" name="submit" id="submit">
+                        </div>
+                    </div>
+                    <!--end div for fields-->
+                </fieldset>
+            </form>
+        </div>
+        <!--end col div for form-->
+        <div class="col-xs-12 col-md-2 col-lg-2">
+            <p>604 24th Street</p>
+            <p>St. Paul, MN</p>
+            <br>
+            <p>702-971-1154</p>
+            <br>
+        </div>
+        <!--end col div for address-->
+        <div class="col-xs-12 col-md-3 col-lg-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5982.75108172947!2d-93.09260874803226!3d44.95418805543233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s604%2024th%20st%20st%20paul%20mn!5e0!3m2!1sen!2sus!4v1587436097875!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="col-xs-0 col-sm-2 col-lg-2"></div>
+    </div>
+    <footer class="row" style="margin-top: 5%">
+        <div class="col-xs-12 col-sm-12 col-lg-12">
+            <p style="color: #fff">&copy; Aleksander Brown 2020
+                <img src="https://www.w3.org/Icons/valid-html401-blue" alt="w3c html validator" title="htmlValidation">
+                <img src="https://www.w3.org/Icons/valid-css2-blue" alt="w3c css validator" title="cssValidation">
+            </p>
+        </div>
+        <!--end col div for footer-->
+    </footer>
+</body></html>

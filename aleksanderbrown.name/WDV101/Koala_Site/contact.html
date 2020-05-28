@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<Head>
+    <title>Koala Site - Contact</title>
+    <meta charset="utf-8">
+    <meta name="description" content="WDV101 Koala Website Contact Page">
+    <meta name="author" content="Alek Brown">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- live base link -->
+    <base href="/WDV101/Koala_Site/">
+
+    <link rel="stylesheet" type="text/css" href="./content/css/CSS_ResetBase">
+    <link rel="stylesheet" type="text/css" href="./content/css/site.css">
+
+    <style type="text/css">
+        form {
+            align-items: flex-start;
+            text-align: center;
+            width: 15%;
+            margin: 10px auto;
+            padding-bottom: 6.3%;
+        }
+    </style>
+</Head>
+
+<body>
+    <div id="container">
+
+        <header>
+            <img src="content/images/koala_banner_new(3).jpg" alt="Koala Bear National Information Center Banner" style="width: 100%">
+            <h1>Contact Us</h1>
+        </header>
+        <nav>
+            <ul class="ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="fast_facts.html">Fast Facts</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="adopt.html">Adopt</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form id="contactForm" action="content/files/form_response_basic.php" method="post">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname" autocomplete="given-name" required><br>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lname" autocomplete="family-name" required><br>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" autocomplete="email" required><br>
+                    <label for="topic">Topic:</label><br>
+                    <select name="topic" size="1">
+                        <option value="info">Information</option>
+                        <option value="volunteer">Volunteer</option>
+                        <option value="adopt">Adoption Questions</option>
+                    </select><br>
+                    <label for="comment">Comment: </label><br>
+                    <textarea name="comment" id="comment" rows="10" cols="30"></textarea><br>
+                    <input type="submit" value="submit">
+                    <input type="reset">
+                </fieldset>
+            </form>
+        </main>
+    </div>
+    <!--close container div-->
+</body></html>

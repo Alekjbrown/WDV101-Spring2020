@@ -10,35 +10,31 @@
     <!-- this makes the view responisve for different devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="/aleksanderbrown.name">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="/content/css/CSS_ResetBase">
+    <link rel="stylesheet" type="text/css" href="/content/css/mystyle.css">
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-md-12">
+    <div id="container">
+
+        <header>
             <span>
-                <h1 id="myHeader">Aleksander Brown</h1>
+                <h1>Aleksander Brown</h1>
             </span>
-        </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="WDV101/index.html">WDV101 Homework Page</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div><img src="/content/images/Self.jpg" alt="Alek Brown" id="profilePic"></div>
+            <object>
+                <iframe src="/content/files/resume2020.pdf" loading="lazy"></iframe>
+            </object>
+            <div style="clear: both;"></div>
+        </main>
     </div>
-    <br>
-    <div class="centerDiv">
-        <img src="/images/Self.jpg" alt="Alek Brown" style="width: 200px;height:266px;">
-    </div>
-    <br>
-    <h2>Links</h2>
-    <br>
-    <table>
-        <tr>
-            <td>HTML/CSS</td>
-            <td><a href="WDV101/index.html">WDV101 Homework Page</a></td>
-        </tr>
-        <!--<tr>
-            <td>Software Projects</td>
-        </tr> -->
-
-    </table>
-
+    <!--end container div-->
 </body></html>
