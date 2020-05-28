@@ -5,6 +5,7 @@ body {
     background-size: cover;
     background-color: #cccccc;
     height: 619px;
+    position: absolute;
 }
 
 .header {
@@ -80,10 +81,9 @@ blockquote {
 
 @font-face {
     font-family: 'airstreamregular';
-    src: url('fonts/Airstream-webfont.woff') format('woff'),
-        font-weight: normal;
+    src: url('fonts/Airstream-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
-    4
 }
 
 
@@ -104,15 +104,13 @@ blockquote {
 }
 
 
-.box img.left {
-    float: left;
-    margin-right: 24px;
-    width: 300px;
+.box img.right {
+    float: right;
+    width: 275px;
     box-shadow: 5px 10px;
 }
 
-.box img.right {
-    margin-left: 24px;
-    width: 300px;
+.box img.left {
+    width: 275px;
     box-shadow: 5px 10px;
 }
